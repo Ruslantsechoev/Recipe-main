@@ -57,11 +57,9 @@ DATABASES = {
         'NAME': 'recipe_main_6nqg',
         'USER': 'recipe_main_6nqg_user',
         'PASSWORD': 'mgrvlo6DPegVt6zAHL3v7Om3e1Vd6BGW',
-<<<<<<< HEAD
+
         'HOST': 'dpg-cvm3n38dl3ps739bbh90-a.frankfurt-postgres.render.com',
-=======
         'HOST': 'dpg-cvm3n38dl3ps739bbh90-a',
->>>>>>> 0a176af216e2dd1e955c01eee6f4398230768f75
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
