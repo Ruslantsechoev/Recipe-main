@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-fallback-key')
 DEBUG = False
-ALLOWED_HOSTS = ["recipe-app-g1m0.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["recipe-main-z3y8.onrender.com", "localhost"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
