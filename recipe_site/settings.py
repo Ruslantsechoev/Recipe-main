@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-fallback-key')
 DEBUG = False
-ALLOWED_HOSTS = ["recipe-app-g1m0.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["recipe-main-z3y8.onrender.com", "localhost"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -57,7 +57,11 @@ DATABASES = {
         'NAME': 'recipe_main_6nqg',
         'USER': 'recipe_main_6nqg_user',
         'PASSWORD': 'mgrvlo6DPegVt6zAHL3v7Om3e1Vd6BGW',
+<<<<<<< HEAD
         'HOST': 'dpg-cvm3n38dl3ps739bbh90-a.frankfurt-postgres.render.com',
+=======
+        'HOST': 'dpg-cvm3n38dl3ps739bbh90-a',
+>>>>>>> 0a176af216e2dd1e955c01eee6f4398230768f75
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
